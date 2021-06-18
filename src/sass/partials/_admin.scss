@@ -1,0 +1,35 @@
+.admin {
+    background: url(../../images/drag.jpg) no-repeat center/cover;
+    &__group {
+        h3 {
+            color: #fff;
+        }
+    }
+    .admin-page {
+        h1 {
+            font-size: 40px;
+            background-color: rgba(255, 255, 255, 0.37);
+            border-radius: 25px;
+            width: 70%;
+            margin: 2rem auto;
+        }
+    }
+}
+.button {
+    background-color: #161616d7;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+    color: #f9ff9e;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: block;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    &:hover {
+        color: #fff;
+        background-color: #5e5e5e;
+    }
+}

@@ -1,0 +1,43 @@
+.scrollTop {
+    position: fixed;
+    bottom: 2vh;
+    z-index: 10;
+    cursor: pointer;
+    right: 5%;
+
+    .home-icon {
+        color: rgb(255, 225, 160);
+        font-size: 2rem;
+
+        &:hover {
+            color: rgb(255, 174, 0);
+            transform: scale(1.1);
+            transition: all 0.4s ease-in-out;
+        }
+    }
+}
+
+.scrollDown {
+    top: 75vh;
+    left: 46%;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+
+    .home-icon {
+        color: #ffe1a0;
+        font-size: 3rem;
+        font-weight: lighter;
+        transition: all 0.7s;
+        white-space: nowrap;
+
+        &:hover {
+            transform: scale(1.1);
+            color: #fff;
+            text-shadow: 0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #fff,
+                0 0 80px #fff,
+        }
+    }
+}
